@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/backsmall" >
+
+    <Button
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User? Sign up now!"
+        android:background="@drawable/mybutton"
+        android:textSize="20dp"
+        android:textColor="#6CAAFF"
+        android:id="@+id/btnGotoSignup"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registered? Login Now."
+        android:background="@drawable/mybutton"
+        android:textSize="20dp"
+        android:textColor="#6CAAFF"
+        android:id="@+id/btnGotoLogin"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/btnGotoSignup"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Access in Offline Mode"
+        android:background="@drawable/mybutton"
+        android:textSize="20dp"
+        android:textColor="#6CAAFF"
+        android:id="@+id/btnOffline"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/btnGotoLogin"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

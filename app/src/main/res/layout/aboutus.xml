@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backsmall"
+    android:orientation="vertical">
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="The name of this project is CarMech.   It will be an application based on java for android smartphones only.  It is for the public, and newbie drivers who don’t have a clue about how to fix their cars.  CarMech will provide brief and detailed information, as will be required, based on how to fix your car with a step-by-step guide and pictures.  Also the app will give all necessary precautions which are needed when fixing the car. The main purpose of this application is to make sure that every driver in the country get to their destination safely with no hurdles, or minor hurdles. "/>
+
+</LinearLayout>
